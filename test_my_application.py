@@ -19,3 +19,5 @@ def test_homepage_has_Playwright_in_title_and_get_started_link_linking_to_the_in
 
     # Expects the URL to contain intro.
     expect(page).to_have_url(re.compile(".*intro"))
+
+    #FIFI
